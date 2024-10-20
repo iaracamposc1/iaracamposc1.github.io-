@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+    background-color: #fff;
+    font-family: "Century Gothic", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.1);
+}
+
+/* Secciones */
+section, aside {
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    border: 3px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+section:hover {
+    border-color: #000;
+}
+
+h2, h3 {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+    color: #000;
+}
+
+/* Imágenes */
+img {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 16px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #000;
+    background-color: #fff;
+    padding: 5px;
+}
+
+/* Ajustes de centrado */
+main, header, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section, aside {
+    text-align: center;
+}
